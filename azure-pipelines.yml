@@ -6,8 +6,8 @@
 trigger:
 - master
 
-pool:My computer Agent
-
+pool:
+ master:ubantu latest;
 
 variables:
   phpVersion: 7.2
