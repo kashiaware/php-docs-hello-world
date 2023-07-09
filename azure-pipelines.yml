@@ -6,10 +6,10 @@
 trigger:
 - master
 
-pool:mycomputer agent
+pool:'mycomputer agent'
 
 
-variables:'$(kash):'
+variables:'$(kash)'
 
 
 steps:
