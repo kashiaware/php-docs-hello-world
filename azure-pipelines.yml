@@ -9,11 +9,8 @@ trigger:
 pool:mycomputer agent
 
 
-variables:
-- name: myReadOnlyVar
-  value: myValue
-  readonly: true
-  phpVersion: 7.2
+variables:$(kash)
+
 
 steps:
 - script: |
