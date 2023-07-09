@@ -9,6 +9,10 @@ trigger:
 pool:mycomputer agent
 
 variables:
+variables:
+- name: myReadOnlyVar
+  value: myValue
+  readonly: true
   phpVersion: 7.2
 
 steps:
