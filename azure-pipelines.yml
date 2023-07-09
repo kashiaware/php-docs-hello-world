@@ -8,7 +8,7 @@ trigger:
 
 pool:mycomputer agent
 
-variables:
+
 variables:
 - name: myReadOnlyVar
   value: myValue
